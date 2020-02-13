@@ -1,0 +1,11 @@
+--- crossbeam-epoch-0.8.0/Cargo.toml	2019-11-06T23:43:07+00:00
++++ crossbeam-epoch-0.8.0/Cargo.toml	2020-01-15T19:19:29.174136+00:00
+@@ -42,7 +42,7 @@
+ [dev-dependencies.rand]
+ version = "0.6"
+ [build-dependencies.autocfg]
+-version = "0.1.6"
++version = "1"
+ 
+ [features]
+ alloc = ["crossbeam-utils/alloc"]
